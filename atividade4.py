@@ -11,10 +11,15 @@ ps5 = 2100
 notebook = 2350
 
 # Quantidade dos produtos
+print("O valor do iphone é de R$ ", iphone)
 qntiphone = int(input("Quantos iphones você gostaria de comprar?: "))
+print("O valor do samsung é de R$ ", samsung)
 qntsamsung = int(input("Quantos samsungs você gostaria de comprar?: "))
+print("O valor do tablet é de R$ ", tablet)
 qnttablet = int(input("Quantos tablets você gostaria de comprar?: "))
+print("O valor do ps5 é de R$ ", ps5)
 qntps5 = int(input("Quantos ps5 você gostaria de comprar?: "))
+print("O valor do notebook é de R$ ", notebook)
 qntnotebook = int(input("Quantos notebooks você gostaria de comprar?: "))
 
 # Total dos produtos
