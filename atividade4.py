@@ -33,7 +33,7 @@ parcela6 = round ((total*1.05)/6, 2)
 print ("O valor total parcelado em 6x é: R$ ", float(parcela6))
 
 # Desconto
-desconto10 = round(total-(total*0.10))
+desconto10 = round(total-(total*0.10),2)
 print ("O valor total á vista com desconto é: R$ ", float(desconto10))
 
 print ("Volte sempre! :)")
